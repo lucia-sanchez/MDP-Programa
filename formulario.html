@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 class="title">Formulario de Inscripción</h1>
+    <form action="#" method="" enctype="multipart/form-data" class="form">
+            <label for="name">Nombre
+                <input title="name" type="text" id="name" placeholder="Ingresa tu Nombre">
+            </label>
+            <label for="lastName">Apellido
+                <input title="lastName" type="text" id="lastName" placeholder="Ingresa tu Apellido">
+            </label>
+            <label for="country">Pais
+               <select name="country" id="country">
+                <option value="Argentina" selected>Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Peru">Peru</option>
+            </select>
+            </label>
+            <label for="email">E-mail
+                <input title="email" type="email" id="email" placeholder="Ingresa tu e-mail">
+            </label>
+        <label for="work">Trabaja</label>
+           <div>
+            <input title="SI" type="radio" id="workYes" name="work" value="SI">SI
+            <input title="NO" type="radio" id="workNo" name="work" value="NO">NO
+        </div> 
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+</body>
+</html>
